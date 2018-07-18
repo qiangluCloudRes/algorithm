@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09445d76-1407-4a5b-a44d-2408af5b48f2" name="Default" comment="feat graph">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/graph/BFSGraph$Graph.class" afterPath="$PROJECT_DIR$/target/classes/graph/BFSGraph$Graph.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/graph/BFSGraph$Node.class" afterPath="$PROJECT_DIR$/target/classes/graph/BFSGraph$Node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/graph/BFSGraph.class" afterPath="$PROJECT_DIR$/target/classes/graph/BFSGraph.class" />
+    <list default="true" id="09445d76-1407-4a5b-a44d-2408af5b48f2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/graph/BFSGraph.java" afterPath="$PROJECT_DIR$/src/main/java/graph/BFSGraph.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,11 +16,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SortAlgorithm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sort/SortAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="59">
+              <caret line="112" column="50" lean-forward="true" selection-start-line="112" selection-start-column="50" selection-end-line="112" selection-end-column="50" />
+              <folding>
+                <element signature="e#3099#3100#0" expanded="true" />
+                <element signature="e#3131#3132#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BFSGraph.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/graph/BFSGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="225" column="41" lean-forward="true" selection-start-line="225" selection-start-column="41" selection-end-line="225" selection-end-column="41" />
+            <state relative-caret-position="208">
+              <caret line="247" column="13" lean-forward="true" selection-start-line="247" selection-start-column="13" selection-end-line="247" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4451#4460#0" expanded="true" />
@@ -31,29 +41,19 @@
                 <element signature="e#5709#5866#0" expanded="true" />
                 <element signature="e#5865#5866#0" expanded="true" />
                 <element signature="e#6946#6955#0" expanded="true" />
-                <element signature="e#8283#8284#0" expanded="true" />
-                <element signature="e#8318#8319#0" expanded="true" />
-                <element signature="e#8352#8353#0" expanded="true" />
-                <element signature="e#8389#8390#0" expanded="true" />
-                <element signature="e#8430#8431#0" expanded="true" />
-                <element signature="e#8468#8469#0" expanded="true" />
-                <element signature="e#8510#8511#0" expanded="true" />
-                <element signature="e#8550#8551#0" expanded="true" />
-                <element signature="e#8588#8589#0" expanded="true" />
-                <element signature="e#8625#8626#0" expanded="true" />
-                <element signature="e#8666#8667#0" expanded="true" />
-                <element signature="e#8707#8708#0" expanded="true" />
+                <element signature="e#9128#9129#0" expanded="true" />
+                <element signature="e#9163#9164#0" expanded="true" />
+                <element signature="e#9197#9198#0" expanded="true" />
+                <element signature="e#9234#9235#0" expanded="true" />
+                <element signature="e#9275#9276#0" expanded="true" />
+                <element signature="e#9313#9314#0" expanded="true" />
+                <element signature="e#9355#9356#0" expanded="true" />
+                <element signature="e#9395#9396#0" expanded="true" />
+                <element signature="e#9433#9434#0" expanded="true" />
+                <element signature="e#9470#9471#0" expanded="true" />
+                <element signature="e#9511#9512#0" expanded="true" />
+                <element signature="e#9552#9553#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphSearch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/search/GraphSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="34" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -202,6 +202,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="heap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -450,7 +458,7 @@
       <workItem from="1530755764668" duration="16912000" />
       <workItem from="1530841919000" duration="46576000" />
       <workItem from="1531386994315" duration="18146000" />
-      <workItem from="1531706986514" duration="35076000" />
+      <workItem from="1531706986514" duration="46879000" />
     </task>
     <task id="LOCAL-00001" summary="feat graph">
       <created>1531829590462</created>
@@ -459,11 +467,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531829590462</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat graph">
+      <created>1531896806340</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1531896806340</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116710000" />
+    <option name="totallyTimeSpent" value="128513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -485,12 +500,12 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.531012" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46137106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -524,8 +539,14 @@
           <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graph/BFSGraph.java</url>
+          <line>233</line>
+          <properties />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="103" />
+      <option name="time" value="108" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -535,8 +556,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3099#3100#0" expanded="false" />
-            <element signature="e#3131#3132#0" expanded="false" />
+            <element signature="e#3099#3100#0" expanded="true" />
+            <element signature="e#3131#3132#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -724,25 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sort/SortAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="106" column="9" lean-forward="true" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
-          <folding>
-            <element signature="e#3099#3100#0" expanded="false" />
-            <element signature="e#3131#3132#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/search/GraphSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12240">
@@ -759,10 +761,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sort/SortAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="112" column="50" lean-forward="true" selection-start-line="112" selection-start-column="50" selection-end-line="112" selection-end-column="50" />
+          <folding>
+            <element signature="e#3099#3100#0" expanded="true" />
+            <element signature="e#3131#3132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/search/GraphSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/graph/BFSGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="225" column="41" lean-forward="true" selection-start-line="225" selection-start-column="41" selection-end-line="225" selection-end-column="41" />
+        <state relative-caret-position="208">
+          <caret line="247" column="13" lean-forward="true" selection-start-line="247" selection-start-column="13" selection-end-line="247" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4451#4460#0" expanded="true" />
@@ -770,18 +791,18 @@
             <element signature="e#5709#5866#0" expanded="true" />
             <element signature="e#5865#5866#0" expanded="true" />
             <element signature="e#6946#6955#0" expanded="true" />
-            <element signature="e#8283#8284#0" expanded="true" />
-            <element signature="e#8318#8319#0" expanded="true" />
-            <element signature="e#8352#8353#0" expanded="true" />
-            <element signature="e#8389#8390#0" expanded="true" />
-            <element signature="e#8430#8431#0" expanded="true" />
-            <element signature="e#8468#8469#0" expanded="true" />
-            <element signature="e#8510#8511#0" expanded="true" />
-            <element signature="e#8550#8551#0" expanded="true" />
-            <element signature="e#8588#8589#0" expanded="true" />
-            <element signature="e#8625#8626#0" expanded="true" />
-            <element signature="e#8666#8667#0" expanded="true" />
-            <element signature="e#8707#8708#0" expanded="true" />
+            <element signature="e#9128#9129#0" expanded="true" />
+            <element signature="e#9163#9164#0" expanded="true" />
+            <element signature="e#9197#9198#0" expanded="true" />
+            <element signature="e#9234#9235#0" expanded="true" />
+            <element signature="e#9275#9276#0" expanded="true" />
+            <element signature="e#9313#9314#0" expanded="true" />
+            <element signature="e#9355#9356#0" expanded="true" />
+            <element signature="e#9395#9396#0" expanded="true" />
+            <element signature="e#9433#9434#0" expanded="true" />
+            <element signature="e#9470#9471#0" expanded="true" />
+            <element signature="e#9511#9512#0" expanded="true" />
+            <element signature="e#9552#9553#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -223,11 +223,29 @@ public class BFSGraph {
      */
     public static void prim(Graph graph,int index){
         int current = index;
-        int[] dist = new int[graph.node];
-        for (int j = 0; j < graph.node; j ++)//初始化其他节点到当前节点的距离
-            dist[j] = graph.matrix[current][j];
-        for (int i = 0; i < graph.node; i ++){
-
+        System.out.print(graph.nodeValue[index] + "->");
+        Point[] dist = new Point[graph.node];
+        for (int j = 0; j < graph.node; j ++) {//初始化其他节点到当前节点的距离
+            Point point = new Point();
+            point.vi = j;
+            point.weight = graph.matrix[current][j];
+            dist[j] = point;
+        }
+        for (int i = 1; i < graph.node; i ++){
+            int min = Integer.MAX_VALUE;
+            for (int j =0;j < graph.node;j ++){
+                if (0 != dist[j].weight && !graph.visited[j] && dist[j].weight < min) {//找到当前距离最小的点
+                    current = dist[j].vi;
+                    min = dist[j].weight;
+                }
+            }
+            System.out.print(graph.nodeValue[current] + "->");
+            for (int j = 0; j < graph.node; j ++){
+               if (0 != graph.matrix[current][j] && dist[current].weight > graph.matrix[current][j]){
+                    dist[j].weight = graph.matrix[current][j];
+                    dist[j].vi = j;
+               }
+            }
         }
     }
 
@@ -236,6 +254,7 @@ public class BFSGraph {
         Graph graph = createGraph();
 //        BFSTraverseTable(graph);
 //        Kruskal(graph);
+        prim(graph,0);
     }
 
     static class Graph {
