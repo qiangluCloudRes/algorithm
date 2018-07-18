@@ -241,7 +241,7 @@ public class BFSGraph {
             }
             System.out.print(graph.nodeValue[current] + "->");
             for (int j = 0; j < graph.node; j ++){
-               if (0 != graph.matrix[current][j] && dist[current].weight > graph.matrix[current][j]){
+               if (0 != graph.matrix[current][j] && dist[j].weight > graph.matrix[current][j]){
                     dist[j].weight = graph.matrix[current][j];
                     dist[j].vi = j;
                }
